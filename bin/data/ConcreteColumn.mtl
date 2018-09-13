@@ -1,0 +1,19 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 09.11.2013 20:04:14
+
+newmtl Concrete_Column
+	Ns 31.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.6570 0.6570 0.6570
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\Tendayi\Work Folder\NT\3D Store\Vray\Prepared\Concrete Column\Post Publish\Max Vray\Concrete.jpg
+	map_Kd D:\Tendayi\Work Folder\NT\3D Store\Vray\Prepared\Concrete Column\Post Publish\Max Vray\Concrete.jpg
+	map_Ks D:\Tendayi\Work Folder\NT\3D Store\Vray\Prepared\Concrete Column\Post Publish\Max Vray\Concrete Specular.jpg
+	map_bump D:\Tendayi\Work Folder\NT\3D Store\Vray\Prepared\Concrete Column\Post Publish\Max Vray\Concrete Bump.jpg
+	bump D:\Tendayi\Work Folder\NT\3D Store\Vray\Prepared\Concrete Column\Post Publish\Max Vray\Concrete Bump.jpg

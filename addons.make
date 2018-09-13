@@ -1,0 +1,2 @@
+ofxAssimpModelLoader
+ofxAutoReloadedShader

@@ -1,0 +1,27 @@
+#version 150
+
+//these are for the programmable pipeline system
+uniform mat4 modelViewProjectionMatrix;
+uniform mat4 transformationMatrix;
+uniform mat4 viewMatrix;
+uniform mat4 modelMatrix;
+uniform vec4 plane;
+
+in vec4 position;
+in vec2 texcoord;
+
+in vec4 aVertexColor;
+
+out vec4 vertexColor;
+out vec2 texCoordVarying;
+
+void main(){
+
+    // copy position so we can work with it.
+	vec4 pos = vec4(position.x + ((position.y)*0.5), 1, position.z, position.w);
+	
+	vec4 worldPostion = modelMatrix * pos;
+
+	vertexColor = aVertexColor;
+	gl_Position =  modelViewProjectionMatrix * pos;
+}
